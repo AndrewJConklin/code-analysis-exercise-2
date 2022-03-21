@@ -23,15 +23,18 @@ function (floor){
 ```
 
 | Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+| 0     |   0    |
+| 1     |   0    |
+|  5    |   4    | 
+|  15   |   13   | 
+|  -5   |   -5   | 
+|  12   |   11   | 
+|  13   |   11   | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>This programs takes a number as an input and returns a value that depends on what number was inputted. If the number is 0 or below, it returns that number unchanged. If the number is 1 through 12, it returns the number - 1. Finally if the number is 13 or greater, it returns the number -2. </td>
   </tr>
 </table>
 
